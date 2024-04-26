@@ -1,1 +1,1 @@
-## Plugins for enabling the semaphore logic
+## World file and plugins for enabling the semaphore logic
