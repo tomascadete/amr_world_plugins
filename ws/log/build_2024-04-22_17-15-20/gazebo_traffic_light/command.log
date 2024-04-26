@@ -1,0 +1,4 @@
+Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cadete/amr_world/ws/build/gazebo_traffic_light
+Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cadete/amr_world/ws/build/gazebo_traffic_light

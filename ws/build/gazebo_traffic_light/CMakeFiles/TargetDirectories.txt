@@ -1,0 +1,10 @@
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/uninstall.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/gazebo_traffic_light_uninstall.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/gazebo_traffic_light.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/test.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/edit_cache.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/rebuild_cache.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/list_install_components.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/install.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/install/local.dir
+/home/cadete/amr_world/ws/build/gazebo_traffic_light/CMakeFiles/install/strip.dir

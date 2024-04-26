@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (gazebo_traffic_light) JobQueued: {'identifier': 'gazebo_traffic_light', 'dependencies': OrderedDict()}
+[0.000159] (gazebo_traffic_light) JobStarted: {'identifier': 'gazebo_traffic_light'}
+[0.003862] (gazebo_traffic_light) JobProgress: {'identifier': 'gazebo_traffic_light', 'progress': 'cmake'}
+[0.004346] (gazebo_traffic_light) JobProgress: {'identifier': 'gazebo_traffic_light', 'progress': 'build'}
+[0.004778] (gazebo_traffic_light) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cadete/amr_world/ws/build/gazebo_traffic_light', '--', '-j20', '-l20'], 'cwd': '/home/cadete/amr_world/ws/build/gazebo_traffic_light', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cadete'), ('LC_TIME', 'pt_PT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cadete'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1241'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '1409'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2081'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cadete'), ('JOURNAL_STREAM', '8:39526'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cadete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cadete/.local/bin:/opt/ros/humble/bin:/home/cadete/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cadete-feup:@/tmp/.ICE-unix/1387,unix/cadete-feup:/tmp/.ICE-unix/1387'), ('INVOCATION_ID', 'da2211bec56a463b8074651c93072fba'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MF1KM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-841c8779b0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cadete/amr_world/ws/build/gazebo_traffic_light'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036313] (gazebo_traffic_light) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gazebo_traffic_light\x1b[0m\n'}
+[0.055954] (gazebo_traffic_light) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o\x1b[0m\n'}
+[0.099457] (-) TimerEvent: {}
+[0.199839] (-) TimerEvent: {}
+[0.300164] (-) TimerEvent: {}
+[0.400567] (-) TimerEvent: {}
+[0.500980] (-) TimerEvent: {}
+[0.601307] (-) TimerEvent: {}
+[0.701685] (-) TimerEvent: {}
+[0.801906] (-) TimerEvent: {}
+[0.902168] (-) TimerEvent: {}
+[1.002487] (-) TimerEvent: {}
+[1.102733] (-) TimerEvent: {}
+[1.203036] (-) TimerEvent: {}
+[1.303360] (-) TimerEvent: {}
+[1.403751] (-) TimerEvent: {}
+[1.504005] (-) TimerEvent: {}
+[1.604366] (-) TimerEvent: {}
+[1.704616] (-) TimerEvent: {}
+[1.804941] (-) TimerEvent: {}
+[1.905170] (-) TimerEvent: {}
+[2.005459] (-) TimerEvent: {}
+[2.105836] (-) TimerEvent: {}
+[2.206161] (-) TimerEvent: {}
+[2.306383] (-) TimerEvent: {}
+[2.406618] (-) TimerEvent: {}
+[2.506968] (-) TimerEvent: {}
+[2.607314] (-) TimerEvent: {}
+[2.707658] (-) TimerEvent: {}
+[2.807992] (-) TimerEvent: {}
+[2.908331] (-) TimerEvent: {}
+[3.008663] (-) TimerEvent: {}
+[3.108994] (-) TimerEvent: {}
+[3.209318] (-) TimerEvent: {}
+[3.309650] (-) TimerEvent: {}
+[3.409993] (-) TimerEvent: {}
+[3.510228] (-) TimerEvent: {}
+[3.610484] (-) TimerEvent: {}
+[3.710865] (-) TimerEvent: {}
+[3.811192] (-) TimerEvent: {}
+[3.911450] (-) TimerEvent: {}
+[4.011675] (-) TimerEvent: {}
+[4.111923] (-) TimerEvent: {}
+[4.212173] (-) TimerEvent: {}
+[4.312496] (-) TimerEvent: {}
+[4.412842] (-) TimerEvent: {}
+[4.513173] (-) TimerEvent: {}
+[4.528392] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:6:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of implicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kgazebo::GazeboTrafficLight::GazeboTrafficLight()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.528545] (gazebo_traffic_light) StderrLine: {'line': b'    6 | GazeboTrafficLight::GazeboTrafficLight(\x1b[01;31m\x1b[K)\x1b[m\x1b[K : ModelPlugin() {\n'}
+[4.528582] (gazebo_traffic_light) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.528613] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::GazeboTrafficLight::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.528649] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:11:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::GazeboTrafficLight\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmodel\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.528676] (gazebo_traffic_light) StderrLine: {'line': b'   11 |     this->\x1b[01;31m\x1b[Kmodel\x1b[m\x1b[K = model;\n'}
+[4.528701] (gazebo_traffic_light) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.528905] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:14:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::GazeboTrafficLight\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Klight_timer_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.528934] (gazebo_traffic_light) StderrLine: {'line': b'   14 |     this->\x1b[01;31m\x1b[Klight_timer_\x1b[m\x1b[K = this->ros_node_->create_wall_timer(\n'}
+[4.528960] (gazebo_traffic_light) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.528985] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:16:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUpdateLights\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgazebo::GazeboTrafficLight\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.529013] (gazebo_traffic_light) StderrLine: {'line': b'   16 |         std::bind(&GazeboTrafficLight::\x1b[01;31m\x1b[KUpdateLights\x1b[m\x1b[K, this)\n'}
+[4.529038] (gazebo_traffic_light) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.541546] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitializeJoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.541674] (gazebo_traffic_light) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KInitializeJoints\x1b[m\x1b[K();\n'}
+[4.541708] (gazebo_traffic_light) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.541735] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.541764] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:23:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboTrafficLight::InitializeJoints()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.541793] (gazebo_traffic_light) StderrLine: {'line': b'   23 | void \x1b[01;31m\x1b[KGazeboTrafficLight\x1b[m\x1b[K::InitializeJoints() {\n'}
+[4.541818] (gazebo_traffic_light) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.541843] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:23:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboTrafficLight::InitializeJoints()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.541868] (gazebo_traffic_light) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1\x1b[m\x1b[K:\n'}
+[4.541892] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::GazeboTrafficLight\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.541916] (gazebo_traffic_light) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[KGazeboTrafficLight\x1b[m\x1b[K : public ModelPlugin {\n'}
+[4.541946] (gazebo_traffic_light) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.541977] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:33:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboTrafficLight::UpdateLights()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542004] (gazebo_traffic_light) StderrLine: {'line': b'   33 | void \x1b[01;31m\x1b[KGazeboTrafficLight\x1b[m\x1b[K::UpdateLights() {\n'}
+[4.542030] (gazebo_traffic_light) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542055] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:33:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboTrafficLight::UpdateLights()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542085] (gazebo_traffic_light) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1\x1b[m\x1b[K:\n'}
+[4.542110] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::GazeboTrafficLight\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.542135] (gazebo_traffic_light) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[KGazeboTrafficLight\x1b[m\x1b[K : public ModelPlugin {\n'}
+[4.542161] (gazebo_traffic_light) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542186] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:53:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboTrafficLight::SetLight(const string&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542214] (gazebo_traffic_light) StderrLine: {'line': b'   53 | void \x1b[01;31m\x1b[KGazeboTrafficLight\x1b[m\x1b[K::SetLight(const std::string& color, bool on) {\n'}
+[4.542239] (gazebo_traffic_light) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542263] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:53:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboTrafficLight::SetLight(const string&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542288] (gazebo_traffic_light) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1\x1b[m\x1b[K:\n'}
+[4.542313] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::GazeboTrafficLight\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.542342] (gazebo_traffic_light) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[KGazeboTrafficLight\x1b[m\x1b[K : public ModelPlugin {\n'}
+[4.542368] (gazebo_traffic_light) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542394] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:60:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kgazebo::GazeboTrafficLight::~GazeboTrafficLight()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542420] (gazebo_traffic_light) StderrLine: {'line': b'   60 | \x1b[01;31m\x1b[KGazeboTrafficLight\x1b[m\x1b[K::~GazeboTrafficLight() {\n'}
+[4.542447] (gazebo_traffic_light) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542472] (gazebo_traffic_light) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1\x1b[m\x1b[K:\n'}
+[4.542495] (gazebo_traffic_light) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:23:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual gazebo::GazeboTrafficLight::~GazeboTrafficLight()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[4.542519] (gazebo_traffic_light) StderrLine: {'line': b'   23 |     virtual \x1b[01;36m\x1b[K~\x1b[m\x1b[KGazeboTrafficLight() {}\n'}
+[4.542542] (gazebo_traffic_light) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.613267] (-) TimerEvent: {}
+[4.713491] (-) TimerEvent: {}
+[4.813731] (-) TimerEvent: {}
+[4.913964] (-) TimerEvent: {}
+[5.014260] (-) TimerEvent: {}
+[5.114513] (-) TimerEvent: {}
+[5.214734] (-) TimerEvent: {}
+[5.314951] (-) TimerEvent: {}
+[5.371846] (gazebo_traffic_light) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1\n'}
+[5.372096] (gazebo_traffic_light) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2\n'}
+[5.372166] (gazebo_traffic_light) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.373833] (gazebo_traffic_light) CommandEnded: {'returncode': 2}
+[5.393783] (gazebo_traffic_light) JobEnded: {'identifier': 'gazebo_traffic_light', 'rc': 2}
+[5.404140] (-) EventReactorShutdown: {}

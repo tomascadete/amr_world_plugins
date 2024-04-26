@@ -1,0 +1,51 @@
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:6:40:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[Kgazebo::GazeboTrafficLight::GazeboTrafficLight()[m[K’
+    6 | GazeboTrafficLight::GazeboTrafficLight([01;31m[K)[m[K : ModelPlugin() {
+      |                                        [01;31m[K^[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboTrafficLight::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:11:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ has no member named ‘[01m[Kmodel[m[K’
+   11 |     this->[01;31m[Kmodel[m[K = model;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:14:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ has no member named ‘[01m[Klight_timer_[m[K’
+   14 |     this->[01;31m[Klight_timer_[m[K = this->ros_node_->create_wall_timer(
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:16:40:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateLights[m[K’ is not a member of ‘[01m[Kgazebo::GazeboTrafficLight[m[K’
+   16 |         std::bind(&GazeboTrafficLight::[01;31m[KUpdateLights[m[K, this)
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KInitializeJoints[m[K’ was not declared in this scope
+   20 |     [01;31m[KInitializeJoints[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K At global scope:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:23:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboTrafficLight::InitializeJoints()[m[K’
+   23 | void [01;31m[KGazeboTrafficLight[m[K::InitializeJoints() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:23:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::GazeboTrafficLight::InitializeJoints()[m[K’
+In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ defined here
+   20 | class [01;36m[KGazeboTrafficLight[m[K : public ModelPlugin {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:33:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboTrafficLight::UpdateLights()[m[K’
+   33 | void [01;31m[KGazeboTrafficLight[m[K::UpdateLights() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:33:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::GazeboTrafficLight::UpdateLights()[m[K’
+In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ defined here
+   20 | class [01;36m[KGazeboTrafficLight[m[K : public ModelPlugin {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:53:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboTrafficLight::SetLight(const string&, bool)[m[K’
+   53 | void [01;31m[KGazeboTrafficLight[m[K::SetLight(const std::string& color, bool on) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:53:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::GazeboTrafficLight::SetLight(const string&, bool)[m[K’
+In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ defined here
+   20 | class [01;36m[KGazeboTrafficLight[m[K : public ModelPlugin {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:60:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kgazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’
+   60 | [01;31m[KGazeboTrafficLight[m[K::~GazeboTrafficLight() {
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:23:13:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual gazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’ previously defined here
+   23 |     virtual [01;36m[K~[m[KGazeboTrafficLight() {}
+      |             [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

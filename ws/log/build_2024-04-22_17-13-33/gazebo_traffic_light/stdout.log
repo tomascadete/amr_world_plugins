@@ -1,0 +1,31 @@
+[100%] Built target gazebo_traffic_light
+-- Install configuration: ""
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/lib/gazebo_traffic_light/libgazebo_traffic_light.so
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.sdf
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.config
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.sdf
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.config
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds/plugin_test.world
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/launch
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/launch/traffic_light_test_launch.py
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/yaml
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/yaml/light_sequence.yaml
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/package_run_dependencies/gazebo_traffic_light
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/parent_prefix_path/gazebo_traffic_light
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.sh
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.dsv
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.bash
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.sh
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.zsh
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.dsv
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.dsv
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/packages/gazebo_traffic_light
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig.cmake
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig-version.cmake
+-- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.xml

@@ -1,0 +1,104 @@
+[0.006s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.021s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.089s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.104s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.106s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.109s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.154s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.154s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.499s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.501s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.502s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.506s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.528s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.544s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.545s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.547s] -- Searching for dependencies of ignition-math6
+[0.548s] -- Looking for OGRE...
+[0.551s] -- Found Ogre Ghadamon (1.9.0)
+[0.552s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.557s] -- Looking for OGRE_Paging...
+[0.557s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.557s] -- Looking for OGRE_Terrain...
+[0.557s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.557s] -- Looking for OGRE_Property...
+[0.557s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.558s] -- Looking for OGRE_RTShaderSystem...
+[0.558s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.558s] -- Looking for OGRE_Volume...
+[0.558s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.558s] -- Looking for OGRE_Overlay...
+[0.558s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.604s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.604s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.604s] -- Searching for dependencies of ignition-transport8
+[0.613s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.619s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.621s] -- Checking for module 'libzmq >= 4'
+[0.628s] --   Found libzmq , version 4.3.4
+[0.650s] -- Checking for module 'uuid'
+[0.657s] --   Found uuid, version 2.37.2
+[0.677s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.677s] -- Searching for dependencies of ignition-msgs5
+[0.686s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.689s] -- Checking for module 'tinyxml2'
+[0.696s] --   Found tinyxml2, version 9.0.0
+[0.713s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.713s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.713s] -- Searching for dependencies of ignition-common3
+[0.713s] -- Looking for dlfcn.h - found
+[0.713s] -- Looking for libdl - found
+[0.720s] -- Searching for <ignition-common3> component [graphics]
+[0.720s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.720s] -- Searching for dependencies of ignition-common3-graphics
+[0.720s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.721s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.721s] -- Searching for dependencies of ignition-fuel_tools4
+[0.741s] -- Checking for module 'jsoncpp'
+[0.747s] --   Found jsoncpp, version 1.9.5
+[0.769s] -- Checking for module 'libzip'
+[0.780s] --   Found libzip, version 1.7.3
+[0.812s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.813s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.813s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.814s] -- Gazebo version: 11.10
+[0.857s] -- Configuring done
+[0.869s] -- Generating done
+[0.870s] -- Build files have been written to: /home/cadete/amr_world/ws/build/gazebo_traffic_light
+[0.889s] [35m[1mConsolidate compiler generated dependencies of target gazebo_traffic_light[0m
+[0.909s] [100%] Built target gazebo_traffic_light
+[0.917s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.935s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cadete/amr_world/ws/build/gazebo_traffic_light
+[0.938s] -- Install configuration: ""
+[0.938s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/lib/gazebo_traffic_light/libgazebo_traffic_light.so
+[0.938s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models
+[0.938s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.sdf
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.config
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.sdf
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.config
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds/plugin_test.world
+[0.939s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/launch
+[0.939s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/launch/traffic_light_test_launch.py
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/package_run_dependencies/gazebo_traffic_light
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/parent_prefix_path/gazebo_traffic_light
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.sh
+[0.939s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.dsv
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.sh
+[0.939s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.dsv
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.bash
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.sh
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.zsh
+[0.939s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.dsv
+[0.939s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.dsv
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/packages/gazebo_traffic_light
+[0.939s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig.cmake
+[0.940s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig-version.cmake
+[0.940s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.xml
+[0.941s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cadete/amr_world/ws/build/gazebo_traffic_light

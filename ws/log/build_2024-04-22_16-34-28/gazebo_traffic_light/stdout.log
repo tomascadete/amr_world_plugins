@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target gazebo_traffic_light[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgazebo_traffic_light.so[0m
+[100%] Built target gazebo_traffic_light
+-- Install configuration: ""
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/lib/gazebo_traffic_light/libgazebo_traffic_light.so
+-- Set runtime path of "/home/cadete/amr_world/ws/install/gazebo_traffic_light/lib/gazebo_traffic_light/libgazebo_traffic_light.so" to ""
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.sdf
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.config
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.sdf
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.config
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds/plugin_test.world
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/package_run_dependencies/gazebo_traffic_light
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/parent_prefix_path/gazebo_traffic_light
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.sh
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.dsv
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.sh
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.dsv
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.bash
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.sh
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.zsh
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.dsv
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.dsv
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/packages/gazebo_traffic_light
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig.cmake
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig-version.cmake
+-- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.xml

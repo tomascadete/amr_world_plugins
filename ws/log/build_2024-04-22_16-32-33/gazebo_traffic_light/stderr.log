@@ -1,0 +1,37 @@
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboTrafficLight::changeLights()[m[K’:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:46:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::SetForce(double)[m[K’
+   46 |         [01;31m[Klight_set.second.red->SetForce((current_color_ == RED) ? 1.0 : 0.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+                 from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:6[m[K,
+                 from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::physics::Joint::SetForce(unsigned int, double)[m[K’
+  283 |       public: virtual void [01;36m[KSetForce[m[K(unsigned int _index, double _effort) = 0;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:47:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::SetForce(double)[m[K’
+   47 |         [01;31m[Klight_set.second.green->SetForce((current_color_ == GREEN) ? 1.0 : 0.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+                 from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:6[m[K,
+                 from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::physics::Joint::SetForce(unsigned int, double)[m[K’
+  283 |       public: virtual void [01;36m[KSetForce[m[K(unsigned int _index, double _effort) = 0;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:48:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::SetForce(double)[m[K’
+   48 |         [01;31m[Klight_set.second.yellow->SetForce((current_color_ == YELLOW) ? 1.0 : 0.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+                 from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:6[m[K,
+                 from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::physics::Joint::SetForce(unsigned int, double)[m[K’
+  283 |       public: virtual void [01;36m[KSetForce[m[K(unsigned int _index, double _effort) = 0;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

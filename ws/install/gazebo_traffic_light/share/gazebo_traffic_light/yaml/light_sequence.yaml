@@ -1,0 +1,9 @@
+gazebo_traffic_light:
+  ros__parameters:
+    light_sequence:
+      - color: "red"
+        duration: 10
+      - color: "green"
+        duration: 15
+      - color: "yellow"
+        duration: 5

@@ -1,0 +1,39 @@
+[0.005s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target gazebo_traffic_light[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[6.019s] [100%] [32m[1mLinking CXX shared library libgazebo_traffic_light.so[0m
+[6.216s] [100%] Built target gazebo_traffic_light
+[6.223s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[6.242s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cadete/amr_world/ws/build/gazebo_traffic_light
+[6.246s] -- Install configuration: ""
+[6.246s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/lib/gazebo_traffic_light/libgazebo_traffic_light.so
+[6.247s] -- Set runtime path of "/home/cadete/amr_world/ws/install/gazebo_traffic_light/lib/gazebo_traffic_light/libgazebo_traffic_light.so" to ""
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.sdf
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/gazebo_traffic_light/model.config
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.sdf
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/models/cantilevered_light/model.config
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/worlds/plugin_test.world
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/launch
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/launch/traffic_light_test_launch.py
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/yaml
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/yaml/light_sequence.yaml
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/package_run_dependencies/gazebo_traffic_light
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/parent_prefix_path/gazebo_traffic_light
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.sh
+[6.247s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/ament_prefix_path.dsv
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.sh
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/environment/path.dsv
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.bash
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.sh
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.zsh
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/local_setup.dsv
+[6.248s] -- Installing: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.dsv
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/ament_index/resource_index/packages/gazebo_traffic_light
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig.cmake
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/cmake/gazebo_traffic_lightConfig-version.cmake
+[6.248s] -- Up-to-date: /home/cadete/amr_world/ws/install/gazebo_traffic_light/share/gazebo_traffic_light/package.xml
+[6.249s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cadete/amr_world/ws/build/gazebo_traffic_light

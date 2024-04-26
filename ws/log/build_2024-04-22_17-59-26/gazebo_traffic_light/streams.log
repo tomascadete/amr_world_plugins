@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target gazebo_traffic_light[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[4.509s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In lambda function:
+[4.509s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:21:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Link[m[K’ has no member named ‘[01m[KGetVisuals[m[K’; did you mean ‘[01m[KVisuals[m[K’?
+[4.509s]    21 |             auto visuals = link->[01;31m[KGetVisuals[m[K();
+[4.509s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[4.509s]       |                                  [32m[KVisuals[m[K
+[5.372s] gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+[5.372s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+[5.372s] gmake: *** [Makefile:146: all] Error 2
+[5.374s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20

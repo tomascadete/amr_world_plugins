@@ -1,0 +1,17 @@
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboTrafficLight::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:8:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+    8 |     timer_ = ros_node_->create_wall_timer([01;31m[K1s[m[K, std::bind(&GazeboTrafficLight::changeLights, this));
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboTrafficLight::updateLightVisuals()[m[K’:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:17:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Link[m[K’ has no member named ‘[01m[KSetVisibility[m[K’
+   17 |     model->GetLink("green_on")->[01;31m[KSetVisibility[m[K(current_color_ == GREEN);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:18:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Link[m[K’ has no member named ‘[01m[KSetVisibility[m[K’
+   18 |     model->GetLink("yellow_on")->[01;31m[KSetVisibility[m[K(current_color_ == YELLOW);
+      |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:19:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Link[m[K’ has no member named ‘[01m[KSetVisibility[m[K’
+   19 |     model->GetLink("red_on")->[01;31m[KSetVisibility[m[K(current_color_ == RED);
+      |                               [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

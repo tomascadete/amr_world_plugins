@@ -1,0 +1,13 @@
+[0.006s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[4.246s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:27:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kgazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’
+[4.246s]    27 | [01;31m[KGazeboTrafficLight[m[K::~GazeboTrafficLight() {
+[4.246s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.246s] In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[4.246s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:12:13:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual gazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’ previously defined here
+[4.246s]    12 |     virtual [01;36m[K~[m[KGazeboTrafficLight() {}
+[4.246s]       |             [01;36m[K^[m[K
+[5.353s] gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+[5.354s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+[5.354s] gmake: *** [Makefile:146: all] Error 2
+[5.356s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20

@@ -1,0 +1,151 @@
+[0.005s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cadete/amr_world/ws/src/gazebo_traffic_light -DCMAKE_INSTALL_PREFIX=/home/cadete/amr_world/ws/install/gazebo_traffic_light
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.066s] -- The CXX compiler identification is GNU 11.4.0
+[0.072s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.169s] -- Detecting CXX compiler ABI info - done
+[0.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.173s] -- Detecting CXX compile features
+[0.173s] -- Detecting CXX compile features - done
+[0.177s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.417s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.443s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.446s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.536s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.538s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.593s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.608s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.640s] -- Looking for pthread.h
+[0.679s] -- Looking for pthread.h - found
+[0.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.722s] -- Found Threads: TRUE  
+[0.810s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.029s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.037s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.038s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.038s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.043s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.051s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.052s] -- Checking for module 'bullet>=2.82'
+[1.058s] --   Found bullet, version 3.05
+[1.113s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.141s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.152s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.169s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.178s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.181s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.186s] -- Searching for dependencies of ignition-math6
+[1.187s] -- Looking for OGRE...
+[1.187s] -- OGRE_PREFIX_WATCH changed.
+[1.190s] -- Checking for module 'OGRE'
+[1.196s] --   Found OGRE, version 1.9.0
+[1.215s] -- Found Ogre Ghadamon (1.9.0)
+[1.218s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.224s] -- Looking for OGRE_Paging...
+[1.226s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.226s] -- Looking for OGRE_Terrain...
+[1.228s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.228s] -- Looking for OGRE_Property...
+[1.230s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.231s] -- Looking for OGRE_RTShaderSystem...
+[1.233s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.233s] -- Looking for OGRE_Volume...
+[1.235s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.235s] -- Looking for OGRE_Overlay...
+[1.237s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.283s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.284s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.285s] -- Searching for dependencies of ignition-transport8
+[1.294s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.299s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.301s] -- Checking for module 'libzmq >= 4'
+[1.309s] --   Found libzmq , version 4.3.4
+[1.329s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.332s] -- Checking for module 'uuid'
+[1.339s] --   Found uuid, version 2.37.2
+[1.356s] -- Found UUID: TRUE  
+[1.357s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.358s] -- Searching for dependencies of ignition-msgs5
+[1.368s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.370s] -- Checking for module 'tinyxml2'
+[1.377s] --   Found tinyxml2, version 9.0.0
+[1.394s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.396s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.396s] -- Searching for dependencies of ignition-common3
+[1.397s] -- Looking for dlfcn.h - found
+[1.397s] -- Looking for libdl - found
+[1.398s] -- Found DL: TRUE  
+[1.404s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.404s] -- Searching for <ignition-common3> component [graphics]
+[1.405s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.405s] -- Searching for dependencies of ignition-common3-graphics
+[1.405s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.407s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.407s] -- Searching for dependencies of ignition-fuel_tools4
+[1.452s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.456s] -- Checking for module 'jsoncpp'
+[1.463s] --   Found jsoncpp, version 1.9.5
+[1.483s] -- Found JSONCPP: TRUE  
+[1.487s] -- Checking for module 'libzip'
+[1.494s] --   Found libzip, version 1.7.3
+[1.512s] -- Found ZIP: TRUE  
+[1.512s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.512s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.512s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.514s] -- Gazebo version: 11.10
+[1.514s] -- Checking for module 'tbb'
+[1.524s] --   Found tbb, version 2021.5.0
+[1.585s] -- Configuring done
+[1.600s] -- Generating done
+[1.602s] -- Build files have been written to: /home/cadete/amr_world/ws/build/gazebo_traffic_light
+[1.609s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cadete/amr_world/ws/src/gazebo_traffic_light -DCMAKE_INSTALL_PREFIX=/home/cadete/amr_world/ws/install/gazebo_traffic_light
+[1.611s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[1.645s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[5.819s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboTrafficLight::changeLights()[m[K’:
+[5.820s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:46:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::SetForce(double)[m[K’
+[5.820s]    46 |         [01;31m[Klight_set.second.red->SetForce((current_color_ == RED) ? 1.0 : 0.0)[m[K;
+[5.820s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.820s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+[5.820s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+[5.820s]                  from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:6[m[K,
+[5.820s]                  from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[5.820s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::physics::Joint::SetForce(unsigned int, double)[m[K’
+[5.820s]   283 |       public: virtual void [01;36m[KSetForce[m[K(unsigned int _index, double _effort) = 0;
+[5.820s]       |                            [01;36m[K^~~~~~~~[m[K
+[5.820s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[5.820s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:47:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::SetForce(double)[m[K’
+[5.820s]    47 |         [01;31m[Klight_set.second.green->SetForce((current_color_ == GREEN) ? 1.0 : 0.0)[m[K;
+[5.821s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.821s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+[5.821s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+[5.821s]                  from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:6[m[K,
+[5.821s]                  from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[5.821s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::physics::Joint::SetForce(unsigned int, double)[m[K’
+[5.821s]   283 |       public: virtual void [01;36m[KSetForce[m[K(unsigned int _index, double _effort) = 0;
+[5.821s]       |                            [01;36m[K^~~~~~~~[m[K
+[5.821s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[5.821s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:48:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::SetForce(double)[m[K’
+[5.821s]    48 |         [01;31m[Klight_set.second.yellow->SetForce((current_color_ == YELLOW) ? 1.0 : 0.0)[m[K;
+[5.821s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.821s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+[5.821s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+[5.822s]                  from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:6[m[K,
+[5.822s]                  from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[5.822s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void gazebo::physics::Joint::SetForce(unsigned int, double)[m[K’
+[5.822s]   283 |       public: virtual void [01;36m[KSetForce[m[K(unsigned int _index, double _effort) = 0;
+[5.822s]       |                            [01;36m[K^~~~~~~~[m[K
+[5.822s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:283:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[6.637s] gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+[6.637s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+[6.637s] gmake: *** [Makefile:146: all] Error 2
+[6.640s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20

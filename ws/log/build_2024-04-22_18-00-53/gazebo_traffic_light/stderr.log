@@ -1,0 +1,11 @@
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboTrafficLight::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraffic_lights_[m[K’ was not declared in this scope
+   10 |     [01;31m[Ktraffic_lights_[m[K["main"].red = model->GetJoint("red_switch");
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboTrafficLight::updateLightVisuals()[m[K’:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraffic_lights_[m[K’ was not declared in this scope
+   21 |     for (auto& light_set : [01;31m[Ktraffic_lights_[m[K) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

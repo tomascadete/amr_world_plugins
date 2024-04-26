@@ -1,0 +1,15 @@
+[0.007s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target gazebo_traffic_light[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[4.517s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboTrafficLight::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[4.517s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraffic_lights_[m[K’ was not declared in this scope
+[4.517s]    10 |     [01;31m[Ktraffic_lights_[m[K["main"].red = model->GetJoint("red_switch");
+[4.517s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.529s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboTrafficLight::updateLightVisuals()[m[K’:
+[4.529s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraffic_lights_[m[K’ was not declared in this scope
+[4.529s]    21 |     for (auto& light_set : [01;31m[Ktraffic_lights_[m[K) {
+[4.529s]       |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.407s] gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+[5.408s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+[5.408s] gmake: *** [Makefile:146: all] Error 2
+[5.409s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20

@@ -1,0 +1,10 @@
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:44:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kgazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’
+   44 | [01;31m[KGazeboTrafficLight[m[K::~GazeboTrafficLight() {
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:16:13:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual gazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’ previously defined here
+   16 |     virtual [01;36m[K~[m[KGazeboTrafficLight() {}
+      |             [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

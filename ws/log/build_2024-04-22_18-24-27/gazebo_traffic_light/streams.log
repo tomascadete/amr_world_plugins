@@ -1,0 +1,55 @@
+[0.006s] Invoking command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target gazebo_traffic_light[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o[0m
+[4.528s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:6:40:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[Kgazebo::GazeboTrafficLight::GazeboTrafficLight()[m[K’
+[4.528s]     6 | GazeboTrafficLight::GazeboTrafficLight([01;31m[K)[m[K : ModelPlugin() {
+[4.528s]       |                                        [01;31m[K^[m[K
+[4.528s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboTrafficLight::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[4.529s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:11:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ has no member named ‘[01m[Kmodel[m[K’
+[4.529s]    11 |     this->[01;31m[Kmodel[m[K = model;
+[4.529s]       |           [01;31m[K^~~~~[m[K
+[4.529s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:14:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ has no member named ‘[01m[Klight_timer_[m[K’
+[4.529s]    14 |     this->[01;31m[Klight_timer_[m[K = this->ros_node_->create_wall_timer(
+[4.529s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[4.529s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:16:40:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateLights[m[K’ is not a member of ‘[01m[Kgazebo::GazeboTrafficLight[m[K’
+[4.529s]    16 |         std::bind(&GazeboTrafficLight::[01;31m[KUpdateLights[m[K, this)
+[4.529s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[4.541s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KInitializeJoints[m[K’ was not declared in this scope
+[4.542s]    20 |     [01;31m[KInitializeJoints[m[K();
+[4.542s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:[m[K At global scope:
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:23:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboTrafficLight::InitializeJoints()[m[K’
+[4.542s]    23 | void [01;31m[KGazeboTrafficLight[m[K::InitializeJoints() {
+[4.542s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:23:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::GazeboTrafficLight::InitializeJoints()[m[K’
+[4.542s] In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ defined here
+[4.542s]    20 | class [01;36m[KGazeboTrafficLight[m[K : public ModelPlugin {
+[4.542s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:33:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboTrafficLight::UpdateLights()[m[K’
+[4.542s]    33 | void [01;31m[KGazeboTrafficLight[m[K::UpdateLights() {
+[4.542s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:33:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::GazeboTrafficLight::UpdateLights()[m[K’
+[4.542s] In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ defined here
+[4.542s]    20 | class [01;36m[KGazeboTrafficLight[m[K : public ModelPlugin {
+[4.542s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:53:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboTrafficLight::SetLight(const string&, bool)[m[K’
+[4.542s]    53 | void [01;31m[KGazeboTrafficLight[m[K::SetLight(const std::string& color, bool on) {
+[4.542s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:53:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::GazeboTrafficLight::SetLight(const string&, bool)[m[K’
+[4.542s] In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboTrafficLight[m[K’ defined here
+[4.542s]    20 | class [01;36m[KGazeboTrafficLight[m[K : public ModelPlugin {
+[4.542s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:60:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kgazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’
+[4.542s]    60 | [01;31m[KGazeboTrafficLight[m[K::~GazeboTrafficLight() {
+[4.542s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.542s] In file included from [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.cpp:1[m[K:
+[4.542s] [01m[K/home/cadete/amr_world/ws/src/gazebo_traffic_light/src/GazeboTrafficLight.hpp:23:13:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual gazebo::GazeboTrafficLight::~GazeboTrafficLight()[m[K’ previously defined here
+[4.542s]    23 |     virtual [01;36m[K~[m[KGazeboTrafficLight() {}
+[4.542s]       |             [01;36m[K^[m[K
+[5.372s] gmake[2]: *** [CMakeFiles/gazebo_traffic_light.dir/build.make:76: CMakeFiles/gazebo_traffic_light.dir/src/GazeboTrafficLight.cpp.o] Error 1
+[5.372s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gazebo_traffic_light.dir/all] Error 2
+[5.372s] gmake: *** [Makefile:146: all] Error 2
+[5.374s] Invoked command in '/home/cadete/amr_world/ws/build/gazebo_traffic_light' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cadete/amr_world/ws/build/gazebo_traffic_light -- -j20 -l20
